@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
 //whitebox
 
-//1 download data
+//1 download data, use API
 
         /*
 
