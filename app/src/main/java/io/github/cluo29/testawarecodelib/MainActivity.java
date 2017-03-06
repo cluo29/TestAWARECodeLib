@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         /*
 
-        library_downloadDataProvider.addDataProvider(getApplicationContext(),
+        library_downloadDataProvider.downloadDataProvider(getApplicationContext(),
                 "appName", //App Name
                 "sensorName", // Data type
                 "www.naive.com", //host
