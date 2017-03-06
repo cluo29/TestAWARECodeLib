@@ -48,9 +48,21 @@ public class MainActivity extends AppCompatActivity {
                 "d9a6bd96-5c8c-40fe-8acf-39ba083be22e"  //Device ID
                 );
             */
+    //3 to create replay, use API
+    /*
+    library_createReplayTask.setAppName("Name of App");
 
+    library_createReplayTask.addDataSource("Accelerometer");
 
-    //3 to start replay, use API
+    library_createReplayTask.setStartTimestamp(startTimestamp);
+
+    library_createReplayTask.setEndTimestamp(endTimestamp);
+
+    library_createReplayTask.create(getApplicationContext());
+
+*/
+
+    //4 to start replay, use API
     /*
     library_sendCommand.setSpeed(speed);
 
