@@ -21,23 +21,28 @@ Citation: [1] Chu Luo, Miikka Kuutila, Simon Klakegg, Denzil Ferreira, Huber Flo
 
 A.1. Code Examples
 // to do an assertion, use API
+
 library_result.logResult(getApplicationContext(), "Name of Test",
         "Context Values or Description", "Expected Value", "Actual Value", "Assertion");
 
 // to record Machine learning result, use API
+
 library_result.logResult(getApplicationContext(), "Name of Test",
         "Context Values or Description", "Expected Class", "Actual Class", "Classification");
 
 // to input a device power model, use API
+
 library_powerModel.addPowerModel(getApplicationContext(),
         "Device Name", "Sensor Name", "Sensor Speed", powerUse);
 
 //to log processing time, use API
+
 library_time.logStartTime();
 
 library_time.logStopTime(getApplicationContext(), "Name of Test");
 
 //to start replay, use API
+
 library_sendCommand.setSpeed(speed);
 
 library_sendCommand.setStartTimestamp(startTimestamp);
