@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 "www.naive.com", //host
                 3307,//port number
                 "Luo_834",  //user name
-                "exnklPLF", //password
+                "e222222F", //password
                 "Luo_834", //database name
                 1235798573L,  //STARTTIMESTAMP
                 1235998573L,  //End time,
@@ -92,14 +92,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 */
-
-
-
-
-    //manipulate sensor data, e.g., create a value for accelerometer
-//    accelerometer.addAccelerometerData(getApplicationContext(),1235798593L,"device_ID",
-//            1f,2f,3f, //values of x,y,z
-//            3,"label");
 
     /*
     // to record Machine learning result, use API
